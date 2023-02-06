@@ -61,14 +61,23 @@ h4{
 a{
     color: aqua;
     border-style: solid;
-    text-align: center;
-
 }
+/* clr changes when mouse is placed on the option*/
 a:hover{
     color: blanchedalmond;
     background-color: brown;
 }
+/* clr changes when option is selected*/
 a:active{
     color: darkgreen;
     background-color: darkorange;
+}
+/*clr changes when option is previously visited*/
+a:visited{
+    color: rgb(0, 0, 0);
+    background-color:rgb(51, 51, 255);
+}
+/* information placed after h2 tag*/
+h2::after{
+    content: "!!!";
 }
