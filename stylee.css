@@ -31,3 +31,8 @@ h2{
 h1,h2,h3,h4,p{
     border-style: dotted;
 }
+p[class="abc"]
+{
+    color: blueviolet;
+    text-transform: unset;
+}
