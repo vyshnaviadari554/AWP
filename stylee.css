@@ -1,0 +1,33 @@
+*{
+    border-style:solid;
+    border-width:thick ;
+}
+    
+    
+    
+    h1{
+    color: rgb(255, 230, 1);
+    font-weight: 600 ;
+    text-align: center;
+}
+p{
+    color: lightgoldenrodyellow;
+    align-items: center;
+}
+h2{
+    color: rgb(255, 1, 65);
+    font-weight: 600 ;
+    text-align: center;
+}
+.xyz{
+    color: rgb(205, 25, 121);
+    text-transform: uppercase;
+}
+#googleceo{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+h1,h2,h3,h4,p{
+    border-style: dotted;
+}
