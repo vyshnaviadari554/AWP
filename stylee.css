@@ -61,6 +61,7 @@ h4{
 a{
     color: aqua;
     border-style: solid;
+    text-align: center;
 
 }
 a:hover{
