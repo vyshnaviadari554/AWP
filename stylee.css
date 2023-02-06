@@ -40,3 +40,7 @@ h3{
     color: darkblue;
     text-align: center;
 }
+h4>a{
+    color: indianred;
+    text-transform: uppercase;
+}
