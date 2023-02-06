@@ -1,51 +1,73 @@
+/* '*' is select all*/
 *{
     border-style:solid;
     border-width:thick ;
 }
-    
-    
-    
+ /* only for h1*/   
     h1{
     color: rgb(255, 230, 1);
     font-weight: 600 ;
     text-align: center;
 }
+/* only for paragraphs*/
 p{
     color: rgb(255, 153, 0);
     align-items: center;
 }
+/* for h2*/
 h2{
     color: rgb(255, 1, 65);
     font-weight: 600 ;
     text-align: center;
 }
+/* class selector ("." represents select class*/
 .xyz{
     color: rgb(205, 25, 121);
     text-transform: uppercase;
 }
+/* id selector ("#" represents id)*/
 #googleceo{
     color: rgb(0, 0, 0);
     text-decoration: underline;
     text-transform: uppercase;
 }
+/* common for h1,h2,h3,h4,p (anything that is mentioned )*/
 h1,h2,h3,h4,p{
     border-style: dotted;
 }
+/* Attribute selector */
 p[class="abc"]
 {
     color: blueviolet;
     text-transform: unset;
 }
+/* only for h3*/
 h3{
     color: darkblue;
     text-align: center;
 }
+/* child selector */
 h4>a{
     color: indianred;
     text-transform: uppercase;
 }
+/* only for h4*/
 h4{
     color: steelblue;
     text-transform: uppercase;
     text-align: center;
+}
+/*psudo selector*/
+a{
+    color: aqua;
+    border-style: solid;
+
+}
+a:hover{
+    color: blanchedalmond;
+    background-color: brown;
+}
+a:active{
+    color: darkgreen;
+    background-color: darkorange;
 }
