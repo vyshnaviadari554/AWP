@@ -36,3 +36,7 @@ p[class="abc"]
     color: blueviolet;
     text-transform: unset;
 }
+h3{
+    color: darkblue;
+    text-align: center;
+}
