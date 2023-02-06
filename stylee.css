@@ -44,3 +44,8 @@ h4>a{
     color: indianred;
     text-transform: uppercase;
 }
+h4{
+    color: steelblue;
+    text-transform: uppercase;
+    text-align: center;
+}
