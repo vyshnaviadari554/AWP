@@ -1,2 +1,2 @@
-alert("this is JavaScript class(External section)")
+alert('this is JavaScript class(External section)')
 
