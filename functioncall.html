@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNCTION CALLING</title>
+    <style>
+        script{
+            background-color: darksalmon;
+            color: aqua;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body style="background-color: black; text-align: center;">
+    <h1 id="main" style="background-color: aqua;">FUNCTION CALLING</h1>
+    <h2><label style="background-color: deeppink; height: 15cm;" >USERNAME</label><br></h2>
+    <h3><input style="background-color:palegoldenrod; width: 3.5cm ; height: 0.5cm;" type="text" id="inputvalues"><br></h3>  
+    <input style="background-color: aquamarine; width: 2cm ; height: 0.6cm; " type="button" value="SUBMIT" onclick="getData()">
+    <script>
+        function getData(){
+            var x = document.getElementById("inputvalues").value;
+            document.getElementById("main").innerHTML=x;
+        }
+    </script>
+</body>
+</html>
